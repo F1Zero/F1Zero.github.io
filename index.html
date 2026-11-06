@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FBDX Apps — Aplicaciones para iPhone</title>
-  <meta name="description" content="Apps para iPhone de Fernando Balmes (FBDX): FBDX Audio, sonido envolvente y radio; FBDX 1, carreras antigravedad; DuoLaunch, launcher con clima; y FBDX LockVideo, videos en la pantalla de bloqueo. Descárgalas en la App Store.">
+  <meta name="description" content="Apps para iPhone de Fernando Balmes (FBDX): FBDX Audio, sonido envolvente y radio; FBDX 1, carreras antigravedad; DuoLaunch, launcher con clima; FBDX LockVideo, videos en la pantalla de bloqueo; y FBDX Radar, buscador de dispositivos Bluetooth. Descárgalas en la App Store.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Fernando Eduardo Balmes Moguel">
   <link rel="canonical" href="https://f1zero.github.io/">
@@ -12,7 +12,7 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="FBDX Apps — Aplicaciones para iPhone">
-  <meta property="og:description" content="FBDX Audio, FBDX 1, DuoLaunch y FBDX LockVideo. Descárgalas en la App Store.">
+  <meta property="og:description" content="FBDX Audio, FBDX 1, DuoLaunch, FBDX LockVideo y FBDX Radar. Descárgalas en la App Store.">
   <meta property="og:url" content="https://f1zero.github.io/">
   <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/10/14/a110141c-cf26-d758-5129-d22364ef22f6/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg">
 
@@ -174,20 +174,6 @@
     }
     .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(91, 140, 255, 0.5); }
 
-    .app.pending { border-style: dashed; opacity: 0.9; }
-    .app.pending .icon-ph {
-      width: 78px; height: 78px; flex: none; border-radius: 18px;
-      display: flex; align-items: center; justify-content: center;
-      background: linear-gradient(135deg, rgba(91,140,255,0.18), rgba(166,107,255,0.18));
-      border: 1px dashed var(--border); font-size: 2rem;
-    }
-    .badge {
-      display: inline-block; font-size: 0.72rem; font-weight: 600;
-      padding: 4px 12px; border-radius: 999px; vertical-align: middle;
-      background: rgba(255, 184, 0, 0.16); color: #ffb800;
-      border: 1px solid rgba(255, 184, 0, 0.3); margin-left: 8px;
-    }
-
     footer { text-align: center; margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
     footer a { color: var(--accent); text-decoration: none; }
   </style>
@@ -200,7 +186,8 @@
       { "@type": "SoftwareApplication", "position": 1, "name": "FBDX Audio", "operatingSystem": "iOS", "applicationCategory": "MultimediaApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/10/14/a110141c-cf26-d758-5129-d22364ef22f6/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg", "description": "Reproductor de música y radio por internet con motor de sonido envolvente 7.1 y ecualizador de 10 bandas.", "url": "https://apps.apple.com/mx/app/fbdx-audio/id6792610587" },
       { "@type": "VideoGame", "position": 2, "name": "FBDX 1", "operatingSystem": "iOS", "applicationCategory": "GameApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/b9/3f/85b93fec-4343-0a64-e688-873673d579fe/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/512x512bb.jpg", "description": "Juego de carreras arcade antigravedad con naves futuristas, 4 modos, 11 naves y 10 circuitos.", "url": "https://apps.apple.com/mx/app/fbdx-1/id6818677755" },
       { "@type": "SoftwareApplication", "position": 3, "name": "DuoLaunch", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/1e/45/d21e459d-54a0-20e4-2ee7-a391b513442a/AppIcon-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg", "description": "Launcher con dock vertical de apps favoritas, hora, clima, próximo evento y batería, inspirado en el iPhone Duo.", "url": "https://apps.apple.com/mx/app/duolaunch/id6816817623" },
-      { "@type": "SoftwareApplication", "position": 4, "name": "FBDX LockVideo", "operatingSystem": "iOS", "applicationCategory": "MultimediaApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/d9/07/7ed9074f-bf13-403a-48a7-e3356f93a2b4/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg", "description": "Reproduce un video como arte animado en la pantalla de bloqueo del iPhone, con procesamiento local.", "url": "https://apps.apple.com/mx/app/fbdx-lockvideo/id6800600867" }
+      { "@type": "SoftwareApplication", "position": 4, "name": "FBDX LockVideo", "operatingSystem": "iOS", "applicationCategory": "MultimediaApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/d9/07/7ed9074f-bf13-403a-48a7-e3356f93a2b4/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg", "description": "Reproduce un video como arte animado en la pantalla de bloqueo del iPhone, con procesamiento local.", "url": "https://apps.apple.com/mx/app/fbdx-lockvideo/id6800600867" },
+      { "@type": "SoftwareApplication", "position": 5, "name": "FBDX Radar", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "author": {"@type":"Person","name":"Fernando Eduardo Balmes Moguel"}, "image": "https://f1zero.github.io/assets/radar/icon.jpg", "description": "Radar de señal Bluetooth (BLE) que escanea dispositivos cercanos, estima su dirección con la brújula y los coloca en un mapa en vivo para encontrarlos.", "url": "https://apps.apple.com/mx/app/fbdx-radar/id6819996642" }
     ]
   }
   </script>
@@ -295,15 +282,22 @@
         <a class="btn" href="https://apps.apple.com/mx/app/fbdx-lockvideo/id6800600867">Descargar en la App Store →</a>
       </article>
 
-      <article class="app pending">
+      <article class="app">
         <div class="app-head">
-          <div class="icon-ph">📡</div>
+          <img class="icon" src="assets/radar/icon.jpg" alt="Ícono de FBDX Radar" loading="lazy">
           <div>
-            <h2>FBDX Radar <span class="badge">En revisión</span></h2>
+            <h2>FBDX Radar</h2>
             <span class="genre">Utilidades</span>
           </div>
         </div>
-        <p class="desc">Buscador de dispositivos Bluetooth para iPhone: localiza y muestra los dispositivos cercanos de forma rápida y sencilla. Actualmente en revisión por Apple — próximamente disponible en la App Store.</p>
+        <p class="desc">Radar de señal Bluetooth (BLE) para encontrar tus dispositivos. Escanea los aparatos cercanos y muestra su intensidad de señal en un radar visual; al calibrar con la brújula, estima la dirección de cada uno y lo coloca sobre un mapa en vivo para ayudarte a ubicar audífonos, bocinas, un smartwatch o cualquier equipo Bluetooth. Guarda la última ubicación conocida de cada dispositivo. Sin cuentas, anuncios ni rastreo; todo se procesa en el iPhone.</p>
+        <div class="shots">
+          <img src="assets/radar/1-radar.jpg" alt="FBDX Radar - radar BLE" loading="lazy">
+          <img src="assets/radar/2-ajustes.jpg" alt="FBDX Radar - ajustes" loading="lazy">
+          <img src="assets/radar/3-acerca.jpg" alt="FBDX Radar - acerca de" loading="lazy">
+          <img src="assets/radar/4-ubicaciones.jpg" alt="FBDX Radar - ubicaciones BLE" loading="lazy">
+        </div>
+        <a class="btn" href="https://apps.apple.com/mx/app/fbdx-radar/id6819996642">Descargar en la App Store →</a>
       </article>
 
     </main>
