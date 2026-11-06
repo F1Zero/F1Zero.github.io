@@ -173,6 +173,22 @@
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
     .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(91, 140, 255, 0.5); }
+    .btn.disabled {
+      background: var(--card);
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      box-shadow: none;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .app.pending { border-style: dashed; }
+    .badge {
+      display: inline-block; font-size: 0.72rem; font-weight: 600;
+      padding: 4px 12px; border-radius: 999px; vertical-align: middle;
+      background: rgba(255, 184, 0, 0.16); color: #ffb800;
+      border: 1px solid rgba(255, 184, 0, 0.3); margin-left: 8px;
+    }
 
     footer { text-align: center; margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
     footer a { color: var(--accent); text-decoration: none; }
@@ -298,6 +314,24 @@
           <img src="assets/radar/4-ubicaciones.jpg" alt="FBDX Radar - ubicaciones BLE" loading="lazy">
         </div>
         <a class="btn" href="https://apps.apple.com/mx/app/fbdx-radar/id6819996642">Descargar en la App Store →</a>
+      </article>
+
+      <article class="app pending">
+        <div class="app-head">
+          <img class="icon" src="assets/jump/icon.jpg" alt="Ícono de JUMP — Jumping Upward Mini Paws" loading="lazy">
+          <div>
+            <h2>JUMP — Jumping Upward Mini Paws <span class="badge">En revisión</span></h2>
+            <span class="genre">Juegos</span>
+          </div>
+        </div>
+        <p class="desc">Juego de gatitos que saltan: mantén pulsado para cargar el salto y lanza al gato de plataforma en plataforma, atravesando anillos y controlando el aire para aterrizar con precisión. Incluye niveles con puntuación y estrellas, modo sin fin, varios gatos para desbloquear y habilidades. Actualmente en revisión por Apple — próximamente disponible en la App Store.</p>
+        <div class="shots">
+          <img src="assets/jump/1-anillo.jpg" alt="JUMP - atravesar el anillo" loading="lazy">
+          <img src="assets/jump/2-sofa.jpg" alt="JUMP - cargar el salto" loading="lazy">
+          <img src="assets/jump/3-niveles.jpg" alt="JUMP - selección de niveles" loading="lazy">
+          <img src="assets/jump/4-purrfect.jpg" alt="JUMP - nivel perfecto" loading="lazy">
+        </div>
+        <span class="btn disabled">Próximamente en la App Store</span>
       </article>
 
     </main>
